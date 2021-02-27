@@ -5,22 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"
         integrity="sha512-dqw6X88iGgZlTsONxZK9ePmJEFrmHwpuMrsUChjAw1mRUhUITE5QU9pkcSox+ynfLhL15Sv2al5A0LVyDCmtUw=="
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
         integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ=="
         crossorigin="anonymous" />
+
     <title>Bob Movies</title>
 </head>
 
 <body>
     <header>
-        <div class="ui inverted menu">
+        <div class="ui fixed inverted menu">
             <a class="item">
                 Bob Movies
             </a>
-            <div class="right menu">
+            <div class="right menu ml-5">
                 <div class="item">
                     <div class="ui icon input">
                         <input type="text" placeholder="Search...">
@@ -42,6 +46,448 @@
             </div>
         </div>
     </header>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui one column stackable center aligned page grid">
+        <div class="column twelve wide">
+            <h1>Welcome to Bob Movies</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quibusdam explicabo veritatis
+                accusantium, iure amet obcaecati, magni fugiat adipisci mollitia aperiam tempore incidunt praesentium.
+                Voluptates, nam? Sunt quos veritatis assumenda?</p>
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui container">
+        <div class="column twelve wide">
+            <h3><i class="star icon"></i> Popular Downloads</h3>
+            <div class="ui divider"></div>
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+
+    <div class="ui special cards">
+        <div class="ui four column grid container">
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui container">
+        <div class="column twelve wide">
+            <h3><i class="video icon"></i> Latest Movies</h3>
+            <div class="ui divider"></div>
+        </div>
+    </div>
+
+    <div class="ui special cards">
+        <div class="ui four column grid container">
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui container">
+        <div class="column twelve wide">
+            <h3><i class="clock icon"></i> Upcoming Movies</h3>
+            <div class="ui divider"></div>
+        </div>
+    </div>
+
+    <div class="ui special cards">
+        <div class="ui four column grid container">
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button">View Details</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="https://semantic-ui.com/images/avatar/large/elliot.jpg">
+                        </div>
+                        <div class="content center aligned">
+                            <a class="header">Life</a>
+                            <div class="meta">
+                                <span class="date">2016</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
+    <div class="ui inverted vertical footer segment">
+        <div class="ui container">
+            <div class="ui stackable inverted divided equal height stackable grid">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">About</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Sitemap</a>
+                        <a href="#" class="item">Contact Us</a>
+                        <a href="#" class="item">Religious Ceremonies</a>
+                        <a href="#" class="item">Gazebo Plans</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Services</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Banana Pre-Order</a>
+                        <a href="#" class="item">DNA FAQ</a>
+                        <a href="#" class="item">How To Access</a>
+                        <a href="#" class="item">Favorite X-Men</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui inverted header">Footer Header</h4>
+                    <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('.special.cards .image').dimmer({
+            on: 'hover'
+        });
+    </script>
 </body>
 
 </html>
